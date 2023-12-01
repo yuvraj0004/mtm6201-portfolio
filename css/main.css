@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white:#fff;
+    --black:#000;
+    --p-color:#666666;
+    --primary-color:#548d65;
+}
+body{
+    font-family: 'Catamaran', sans-serif !important;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+ .navbar-nav .nav-link{
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black!important;
+    background-color: white;
+}
+.p-color{
+    color: var(--p-color);
+}
+.btn1{
+    padding: 12px 31px;
+    color: #fff;
+    background: #548d65;
+    border: 0;
+    margin-right: 5px;
+    margin-top: 20px;
+
+}
+.btn2{
+    padding: 12px 31px;
+    color: #fff;
+    background: #548d65;
+    border: 0;
+    margin-top: 20px;
+}
+
+.btn1:hover{
+    background-color: var(--black);
+    color: var(--white);
+
+}
+.btn2:hover{
+    background-color: var(--black);
+    color: var(--white);
+
+}
+.pt-50{
+    padding-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.primary-text{
+    color: var(--primary-color);
+    line-height: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bg-beige{
+    background-color: beige !important;
+}
+.b-0{
+    border: 0 !important;
+}
+.ml-65{
+    margin-left: 65px;
+}
+.fs-40{
+    font-size: 40px;
+}
+/* .card:hover{
+    padding: 10px;
+    transition: 0.5s;
+} */
+.hov-card:hover{
+    padding: 10px;
+    transition: 0.45s;
+}
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sign-img{
+    width: 30%;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.social-cons{
+    width: 50%;
+    display: block;
+}
