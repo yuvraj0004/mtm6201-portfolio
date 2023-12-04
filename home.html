@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Web Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap" rel="stylesheet">
@@ -16,13 +16,14 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-light text-uppercase fs-4" href="index.html"><img class="pe-3"
-                    src="images/2792936_christmas_holly_xmas_icon.svg" alt=""> Holly Space</a>
+            <a class="navbar-brand text-light text-uppercase fs-4" href="index.html">
+                <img class="pe-3" src="images/2792936_christmas_holly_xmas_icon.svg" alt="Holly Space Logo"> Holly Space
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" aria-label="Main navigation">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link px-lg-4" href="index.html">Home</a>
                     <a class="nav-link px-lg-4" href="contactus.html">Contact Us</a>
@@ -43,11 +44,15 @@
                         dedicated to crafting visually
                         appealing, user-friendly, and highly functional websites tailored to your unique needs.
                     </h5>
-                    <a href="contact.html"><input type="button" value="Read More" class="btn1"></a>
-                    <a href="contact.html"><input type="button" value="Contact Us" class="btn2 "></a>
+                    <a href="#main-content" aria-label="Read More Button">
+                        <input type="button" value="Read More" class="btn1">
+                    </a>
+                    <a href="#footer" aria-label="About Us Button">
+                        <input type="button" value="About Us" class="btn2 ">
+                    </a>
                 </div>
                 <div class="col-md-6 py-lg-5 pe-0">
-                    <img src="images/we-change-right-img-1.jpg" alt="#" class="img-fluid">
+                    <img src="images/we-change-right-img-1.jpg" alt="Web Design Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -65,7 +70,7 @@
         </div>
 
     </section>
-    <section class="py-lg-5">
+    <section class="py-lg-5" id="main-content">
         <div class="container">
             <div class="row">
                 <!-- Card 1: Landing Page -->
@@ -83,8 +88,7 @@
                                 <li class="list-group-item bg-beige b-0 py-3">No SEO package</li>
                             </ul>
                             <div class="text-center">
-                                <input type="button" value="Read More" class="btn1 text-center">
-
+                                <input type="button" value="Read More" class="btn1 text-center" aria-label="Read More Button">
                             </div>
                         </div>
                     </div>
@@ -105,8 +109,7 @@
                                 <li class="list-group-item bg-dark text-light b-0 py-3">No SEO package</li>
                             </ul>
                             <div class="text-center">
-                                <input type="button" value="Read More" class="btn1 text-center">
-
+                                <input type="button" value="Read More" class="btn1 text-center" aria-label="Read More Button">
                             </div>
                         </div>
                     </div>
@@ -128,8 +131,7 @@
                             </ul>
 
                             <div class="text-center">
-                                <input type="button" value="Read More" class="btn1 text-center">
-
+                                <input type="button" value="Read More" class="btn1 text-center" aria-label="Read More Button">
                             </div>
                         </div>
                     </div>
@@ -153,13 +155,13 @@
                         high-tech solutions. Trust us to transform your online presence. Our team monitors the emergence
                         of new technologies that we
                         are not afraid to implement in web projects, making them modern and high-tech.</p>
-                    <img src="images/signature.png" alt="Small Sign Image" class="img-fluid sign-img">
+                    <img src="images/signature.png" alt="Signature Image" class="img-fluid sign-img">
                     <p class="font-weight-bold p-color">Yuvraj Othi, Chief Executive Officer</p>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="bg-dark text-light py-4">
+    <footer class="bg-dark text-light py-4" id="footer">
         <div class="container-fluid">
             <div class="row">
                 <!-- About Us and Contact Info Column -->
@@ -169,25 +171,24 @@
                         my studies at Algonquin College - Ottawa Campus. I am the proud founder of HollySpace, a dynamic
                         web design company committed to crafting innovative and modern online experiences. </p>
                     <p>Contact Info:+1(613) 793-1003
-                        +91 78891 66910</p>
-                    <p>Email: Yuvrajothi98@gmail.com</p>
-                    <p>Address: 123 Web Street, Ottawa, ON, Canada</p>
+                        +1 788 916 6910</p>
+                    <p>Email: Yuvrajothi2004@gmail.com</p>
+                    <p>Address: 2004 Eve Street, Ottawa, ON, Canada</p>
                     <!-- Add your social media icons or handles here -->
                 </div>
 
                 <!-- Recent News Column -->
                 <div class="col-md-4">
                     <h5>Recent News</h5>
-                   <h6> April 12, 2020</h6>
+                    <h6> April 12, 2020</h6>
                     <p>Easy Ways to Incorporate Customer Feedback</p>
-                     <h6>January 31, 2020</h6>
+                    <h6>January 31, 2020</h6>
                     <p>How to create a website for your business?</p>
-                      <h5>Recent News</h5>
-                   <h6> May 12, 2023</h6>
+                    <h5>Recent News</h5>
+                    <h6> May 12, 2023</h6>
                     <p>Which is best Reactjs or Bootstrap?</p>
-                     <h6>December 31, 2018</h6>
+                    <h6>December 31, 2018</h6>
                     <p>What are the things to take care of a website?</p>
-                    <!-- Add your recent news content here -->
                 </div>
 
                 <!-- Newsletter Column -->
@@ -201,8 +202,7 @@
                     </div>
                     <h5>Follow us on :</h5>
 
-                        <img src="images/2622840_11108-removebg-preview.png" alt="#" class="img-fluid social-cons">
-                   
+                    <img src="images/2622840_11108-removebg-preview.png" alt="Social Media Icons" class="img-fluid social-cons">
                 </div>
             </div>
             <hr>
@@ -216,11 +216,10 @@
         </div>
     </footer>
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 </body>
 
 </html>
+ and gave me full code and it should be visible on left corner when we check it through tabs button
